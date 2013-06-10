@@ -1,0 +1,34 @@
+{
+  "name": "example",
+  "description": "Installs/Configures example",
+  "long_description": "# example cookbook\n\n# Requirements\n\n# Usage\n\n# Attributes\n\n# Recipes\n\n# Author\n\nAuthor:: YOUR_NAME (<YOUR_EMAIL>)\n",
+  "maintainer": "YOUR_NAME",
+  "maintainer_email": "YOUR_EMAIL",
+  "license": "All rights reserved",
+  "platforms": {
+  },
+  "dependencies": {
+    "apt": ">= 0.0.0",
+    "build-essential": ">= 0.0.0",
+    "nginx": ">= 0.0.0",
+    "database": ">= 0.0.0",
+    "postgresql": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.1.0"
+}
