@@ -37,5 +37,10 @@ default_attributes(
     'password' => {
       'postgres' => 'supersupersecure'
     } 
+   },
+   'jenkins' => {
+     'server' => {
+       'plugins' => ['ruby', 'rubyMetrics', 'git']
+     }
    }
 )  
