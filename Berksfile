@@ -8,5 +8,5 @@ cookbook 'postgresql'
 cookbook 'database'
 cookbook 'rvm', github: 'fnichol/chef-rvm'
 cookbook 'nodejs'
-
+cookbook 'xvfb'
 cookbook 'jenkins'

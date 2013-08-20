@@ -15,6 +15,7 @@ run_list(
   'recipe[jenkins]',
   'recipe[jenkins::proxy_nginx]',
   
+  "recipe[xvfb]",
   "recipe[example]"
 
 )
