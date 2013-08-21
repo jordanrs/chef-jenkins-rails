@@ -16,7 +16,7 @@ run_list(
  
   'recipe[jenkins]',
   'recipe[jenkins::proxy_nginx]',
-  
+  'recipe[libqt4]',
   "recipe[xvfb]",
   "recipe[example]"
 )
@@ -32,7 +32,7 @@ default_attributes(
    },
    'jenkins' => {
      'server' => {
-       'plugins' => ['ruby', 'rubyMetrics', 'git']
+       'plugins' => ['ruby', 'git']
      }
    }
 )  

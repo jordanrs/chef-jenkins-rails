@@ -8,6 +8,7 @@ cookbook 'postgresql'
 cookbook 'database'
 
 cookbook 'git'
+cookbook 'libqt4'
 
 cookbook 'nodejs'
 cookbook 'xvfb'
