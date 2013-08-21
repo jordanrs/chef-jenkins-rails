@@ -6,7 +6,9 @@ cookbook 'nginx'
 
 cookbook 'postgresql'
 cookbook 'database'
-cookbook 'rvm', github: 'fnichol/chef-rvm'
+
+cookbook 'git'
+
 cookbook 'nodejs'
 cookbook 'xvfb'
 cookbook 'jenkins'

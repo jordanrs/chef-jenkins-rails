@@ -8,8 +8,10 @@ run_list(
   "recipe[postgresql::server]",
   
   "recipe[build-essential]",
+  "recipe[git]",
+  
   "recipe[nginx::source]",
-  'recipe[rvm::system]',
+  
   'recipe[nodejs::install_from_package]',
  
   'recipe[jenkins]',
@@ -17,20 +19,9 @@ run_list(
   
   "recipe[xvfb]",
   "recipe[example]"
-
 )
 
 default_attributes(
-  "rvm" => {
-    'default_ruby' => 'ruby-1.9.3-p429',
-    'global_gems' => [
-        { 'name'    => 'bundler' },
-        { 'name'    => 'rake' }
-      ], 
-      'rubies' => [
-        'ruby-2.0.0-p247'
-      ]
-  },
   "node" => {
     'package' => 'package'
   },
